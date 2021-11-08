@@ -1,0 +1,207 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap"); */
+
+@font-face {
+   font-family: "HelveticaNeue";
+   src: url('../fonts/HelveticaNeue-CondensedRegular.woff2') format('woff2'), url('HelveticaNeue-CondensedRegular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "HelveticaNeue";
+   src: url('../fonts/HelveticaNeueCyr-Black.woff2') format('woff2'), url('HelveticaNeueCyr-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*, *::before, *::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a, a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+html, body {
+   height: 100%;
+}
+
+html {
+   font-size: 16px;
+   /* по умолчанию */
+}
+
+body {
+   line-height: 1;
+   font-family: "Roboto", "HelveticaNeue", sans-serif;
+   font-weight: 400;
+   color: #4B4B4B;
+   overflow-x: hidden;
+}
+
+.wrapper {
+   min-height: 100%;
+}
+
+/* ------------------------------ */
+
+._container {
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.header {
+   background-color: #0c2c6b;
+   padding: 25px;
+}
+
+.main {
+   padding: 50px;
+}
+
+.title {
+   font-size: 42px;
+   color: rgb(255, 255, 255);
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+.nemo {
+   background: url(../img/Blob.png) 85% 0 no-repeat #29C3BE;
+   padding: 112px 0 212px;
+}
+
+.content-lying {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 79px 0;
+}
+
+.sub-text {
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0 0 30px 0;
+   background: url(../img/Markwhite.png) no-repeat;
+   padding: 0 0 0 25px;
+}
+
+.sub-title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+   max-width: 411px;
+}
+
+.content-lying__item {
+   border-radius: 40px;
+   margin: -120px 0 0 0;
+   max-width: 498px;
+}
+
+.content-skills {
+   display: flex;
+   justify-content: space-between;
+}
+
+.content-skills__item {
+   display: flex;
+   max-width: 237px;
+}
+
+.content-skills__iqon {
+   margin: 0 11px 0 0;
+}
+
+.content-skills__text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+}
+
+.content-skills__diget {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+}
+
+/* ------------------------------------ */
+
+.omnis {
+   background: #F5F5F5;
+   padding: 85px 0 100px;
+}
+
+.sub-text_violet {
+   color: #5D62B5;
+   background: url(../img/Overlinemark.png) no-repeat;
+}
+
+.sub-title_black {
+   color: #000;
+   max-width: 100%;
+   margin: 0 0 68px 0;
+}
+
+.skills-omni {
+   display: flex;
+   justify-content: space-between;
+}
+
+.skills-omni__items {
+   display: flex;
+}
+
+.skills-omni__wrapp {
+   max-width: 235px;
+   padding: 0 0 0 23px;
+}
+
+.skills-omni__offer {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+   margin: 0 0 20px 0;
+}
+
+.skills-omni__text {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
